@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 20vh;
+    background-color: rgb(40, 39, 38);
+}
+
+.sidebar ul {
+    margin-top: 10vh;
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Adicionando transição */
+}
+
+.sidebar ul li a:hover {
+    color:black;
+    background-color: rgb(190, 190, 190)
+}
+
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
