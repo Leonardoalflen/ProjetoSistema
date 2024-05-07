@@ -8,6 +8,8 @@ body {
     display: flex;
 }
 
+/* Inicio CSS da Tela Index.html */
+
 .sidebar {
     width: 20vh;
     background-color: rgb(94, 182, 230);
@@ -31,16 +33,23 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
     text-decoration: none;
-    transition: background-color 0.3s ease; /* Adicionando transição */
+    transition: background-color 0.3s ease;
+    /* Adicionando transição */
+
 }
 
 .sidebar ul li a:hover {
     color: black;
     background-color: rgb(114, 191, 233);
-    
+
 }
 
 .content {
     flex: 1;
     padding: 20px;
 }
+
+/* Fim CSS da Tela Index.html */
+
+
+
